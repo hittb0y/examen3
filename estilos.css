@@ -1,0 +1,98 @@
+body{margin: 0;}
+section{width: 100%;
+height: 600px;
+background-color: black;}
+header{width: 100%;
+height: 100px;
+background-color: #F8F7F2;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0%;}
+
+header nav a{color: #434343;
+text-decoration: none;
+padding: 10px 10px 10px 10px;
+margin: 1px;
+border: 3px #F8F7F2;}
+
+header nav a:hover{color: black;}
+header img{float:left;}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+#seccion2 
+.imagen1{width:206px;
+margin-right: 50px;
+margin-bottom: 50px}
+.imagen2{width:198px;
+margin-right: 50px;
+margin-bottom: 150px;}
+.imagen3{ width:187px;
+    margin-right: 50px;
+    margin-bottom: 50px}
+.imagen4{width:292px;
+    margin-right: 50px;
+    margin-bottom: 100px;}
+.imagen5{width:203px;
+    margin-right: 40px;
+    margin-bottom: 150px;
+}
+#seccion3
+.bolsoo{ width: 320px;
+    margin-right: 10px;
+margin-left:  800px; 
+margin-bottom: 5px ;
+margin-top: -300px;}
+
+.vestidoo{ width: 90px;
+    margin-bottom: 350px;
+margin-right: 90px;
+margin-top: -200px;}
+    
+
+
+#seccion4
+.rusia1{width: 900px;
+    margin-left: 95px;
+margin-right: 80px ;}
+.rusia2{ width: 230px;
+    margin-left: 90px;
+margin-right: 30px ;}
+#seccion5{
+
+}
